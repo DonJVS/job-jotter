@@ -107,7 +107,7 @@ The application is hosted on [Render](https://render.com). The production URL is
 4. Create a `.env` file with the following variables:
    ```env
    DATABASE_URL=<your-database-url>
-   JWT_SECRET=<your-jwt-secret>
+   SECRET_KEY=<your-jwt-secret>
    GOOGLE_CALENDAR_CLIENT_ID=<google-client-id>
    GOOGLE_CALENDAR_CLIENT_SECRET=<google-client-secret>
    GOOGLE_CALENDAR_REDIRECT_URI=<redirect-uri>
